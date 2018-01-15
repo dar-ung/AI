@@ -1,0 +1,22 @@
+Modulul "Cautare si preluare de imagini"
+
+Echipa: 
+	Grozavu Andrei (SM)
+	Ungureanu Daria
+	Tofan Cosmin
+	Mihalachi Bogdan
+	Gitlan Ionut
+	Nemtoc Ciprian
+
+Descriere:
+	Modulul "Cautare si preluare de imagini" a avut o multitudine de task-uri ce asigura coeziunea si suportul proiectului, fie prin oferirea materialului de prelucrat pentru celelalte module, fie prin implementarea unor functionalitati de control al acuratetii rezultatelor finale.
+
+Task-uri:
+	- colectarea imaginilor: 
+		Selectarea imaginilor din materiale folosite la facultatea de Medicina (atlase,cursuri,documente,etc.) - toti membrii echipei
+	- prelucrarea imaginilor:
+		Fiecare dintre imaginile selectate a trecut printr-un proces de ajustare (decupare header si footer, eliminarea textului redundant) - Tofan Cosmin, Mihalachi Bogdan
+	- prelucrarea fisierului text primit de la modulul de procesare a imaginilor
+		Fisierul primit era intr-o stare care nu permitea preluarea optima a termenilor cheie. De aceea am implementat o metoda care aranjeaza fisierul text. (fiecare termen cheie pe cate o linie) - Grozavu Andrei, Ungureanu Daria
+	- compararea raspunsurilor oferite de student cu fisierul text original 
+		Raspunsurile date de student sunt comparate cu cele corecte de catre o metoda implementata ce returneaza gradul de similaritate intre cele doua fisiere. Am folosit un stemmer (http://compling.hss.ntu.edu.sg/omw/) pentru a elimina sufixele si a compara doar root-ul cuvintelor. - Gitlan Ionut, Ciprian Nemtoc
