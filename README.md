@@ -7,5 +7,4 @@ Done:
   - prelucrarea continutului fisierului cu text
   
 Task-uri:
-  - generare intrebari
   - documentatie
